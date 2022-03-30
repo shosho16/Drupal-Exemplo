@@ -1,0 +1,44 @@
+uuid: 136c1d78-ab1f-43e0-b5e3-c1633c3b2b9b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.atores.body
+    - field.field.node.atores.field_filmes_do_ator
+    - field.field.node.atores.field_imagem_do_ator
+    - node.type.atores
+  module:
+    - image
+    - text
+    - user
+id: node.atores.default
+targetEntityType: node
+bundle: atores
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_filmes_do_ator:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_imagem_do_ator:
+    type: image
+    label: inline
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  links: true

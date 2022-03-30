@@ -1,0 +1,17 @@
+uuid: 6b1e6881-3d0f-4ac8-ab60-c84452497e7e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Atores
+type: atores
+description: 'Seção contendo informações sobre diversos atores'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

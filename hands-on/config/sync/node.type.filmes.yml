@@ -1,0 +1,17 @@
+uuid: 2837685b-55ed-4a0b-8d31-3de9203f66c9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Filmes
+type: filmes
+description: 'Seção contendo os filmes do site'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,20 @@
+uuid: 57660bc6-f74a-4fb3-90d6-c7039256c253
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ms
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: ms_page_title
+theme: ms
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,29 @@
+uuid: 3ea7d257-1a14-46a4-95c1-49071dbe2bcf
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.spotlight
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__spotlight_block_1
+theme: bartik
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:spotlight-block_1'
+settings:
+  id: 'views_block:spotlight-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

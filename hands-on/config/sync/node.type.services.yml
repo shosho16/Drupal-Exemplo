@@ -1,0 +1,17 @@
+uuid: ca820a98-20d1-43c5-b8f8-a6c9b4c14a60
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Services
+type: services
+description: 'Use this content type to describe new services availabel to clients'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

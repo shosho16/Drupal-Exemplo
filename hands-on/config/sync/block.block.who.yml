@@ -1,0 +1,30 @@
+uuid: 5b238379-ee45-4726-95e6-2f8cf7194e34
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0174bba8-4bd6-41b6-a0b9-f16e214a7358'
+  module:
+    - block_content
+    - system
+  theme:
+    - ms
+id: who
+theme: ms
+region: front
+weight: -9
+provider: null
+plugin: 'block_content:0174bba8-4bd6-41b6-a0b9-f16e214a7358'
+settings:
+  id: 'block_content:0174bba8-4bd6-41b6-a0b9-f16e214a7358'
+  label: Who
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

@@ -1,0 +1,29 @@
+uuid: 74cfed33-4753-4c77-a0da-692df1e2be3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_filmes_do_ator
+    - node.type.atores
+    - node.type.filmes
+id: node.atores.field_filmes_do_ator
+field_name: field_filmes_do_ator
+entity_type: node
+bundle: atores
+label: 'Filmes do ator'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      filmes: filmes
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

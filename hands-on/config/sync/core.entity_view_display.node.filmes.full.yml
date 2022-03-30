@@ -1,0 +1,46 @@
+uuid: 83a31d3e-5d6a-42da-acf2-796c60e0f2a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.filmes.body
+    - field.field.node.filmes.field_atores
+    - field.field.node.filmes.field_poster_do_filme
+    - image.style.medium
+    - node.type.filmes
+  module:
+    - image
+    - text
+    - user
+id: node.filmes.full
+targetEntityType: node
+bundle: filmes
+mode: full
+content:
+  body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_atores:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_poster_do_filme:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: medium
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  links: true

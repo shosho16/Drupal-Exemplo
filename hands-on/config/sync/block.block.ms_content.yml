@@ -1,0 +1,22 @@
+uuid: 4fcd7a77-1a4d-4e00-8695-8de858ee95f4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ms
+_core:
+  default_config_hash: kigu8pTxXt1qGR2NJ5HHdC4G2G1wsDrIjLPKBT5wUBc
+id: ms_content
+theme: ms
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

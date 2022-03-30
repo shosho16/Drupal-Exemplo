@@ -1,0 +1,23 @@
+uuid: 39173742-7ffe-46ad-8dad-7bbfb0d06883
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - ms
+_core:
+  default_config_hash: jQ-C8l3dJPqYCGST1e-kSjR14PDP4wq-iFbp8dMFcRo
+id: ms_search
+theme: ms
+region: header
+weight: -3
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: node_search
+visibility: {  }

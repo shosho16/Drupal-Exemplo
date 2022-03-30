@@ -1,0 +1,25 @@
+uuid: 4546ac8c-55b6-4724-a6fc-b36432ce4bc6
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:0174bba8-4bd6-41b6-a0b9-f16e214a7358'
+  module:
+    - block_content
+  theme:
+    - eg
+id: who_2
+theme: eg
+region: front
+weight: -7
+provider: null
+plugin: 'block_content:0174bba8-4bd6-41b6-a0b9-f16e214a7358'
+settings:
+  id: 'block_content:0174bba8-4bd6-41b6-a0b9-f16e214a7358'
+  label: Who
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

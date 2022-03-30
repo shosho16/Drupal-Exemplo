@@ -1,0 +1,22 @@
+uuid: dff3cda0-27e4-4d50-89d8-ace400614182
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tema
+_core:
+  default_config_hash: y0bXRvKYQQKkf_RVxA3aOPGpIfKKsDOzzrWYCgjxJ9Y
+id: tema_breadcrumbs
+theme: tema
+region: footer
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

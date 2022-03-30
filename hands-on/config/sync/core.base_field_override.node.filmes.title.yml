@@ -1,0 +1,18 @@
+uuid: 8cbe1aab-740f-4e60-96c5-228eac4fa34b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.filmes
+id: node.filmes.title
+field_name: title
+entity_type: node
+bundle: filmes
+label: Filmes
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

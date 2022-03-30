@@ -1,0 +1,29 @@
+uuid: 0557f72a-e284-4eec-9938-35e012da9120
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.archive
+  module:
+    - system
+    - views
+  theme:
+    - ms
+id: views_block__archive_block_1
+theme: ms
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:archive-block_1'
+settings:
+  id: 'views_block:archive-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /blog

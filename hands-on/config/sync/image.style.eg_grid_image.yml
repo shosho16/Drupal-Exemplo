@@ -1,0 +1,15 @@
+uuid: 79f54f16-d223-4711-b40c-9d0b65efc3cc
+langcode: en
+status: true
+dependencies: {  }
+name: eg_grid_image
+label: 'EG Grid Image 300x150'
+effects:
+  560c5835-cab4-4fa5-a88f-227c3666a2fb:
+    uuid: 560c5835-cab4-4fa5-a88f-227c3666a2fb
+    id: image_scale
+    weight: 1
+    data:
+      width: 300
+      height: 150
+      upscale: false

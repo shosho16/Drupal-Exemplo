@@ -1,0 +1,23 @@
+uuid: ed2855dd-39a8-4992-9737-97c1df78b2d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.filmes
+  module:
+    - text
+id: node.filmes.body
+field_name: body
+entity_type: node
+bundle: filmes
+label: Sinopse
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

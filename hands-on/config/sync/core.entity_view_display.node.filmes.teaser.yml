@@ -1,0 +1,39 @@
+uuid: e86563f7-db97-40f0-b628-86ae4e4458d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.filmes.body
+    - field.field.node.filmes.field_atores
+    - field.field.node.filmes.field_poster_do_filme
+    - image.style.medium
+    - node.type.filmes
+  module:
+    - image
+    - text
+    - user
+id: node.filmes.teaser
+targetEntityType: node
+bundle: filmes
+mode: teaser
+content:
+  body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_poster_do_filme:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: medium
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_atores: true
+  links: true

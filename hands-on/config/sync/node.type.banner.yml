@@ -1,0 +1,17 @@
+uuid: 9a5eec2d-270e-4dfe-be4c-7aedca5122ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Banner
+type: banner
+description: 'Use this content type to adda frontpage banner'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

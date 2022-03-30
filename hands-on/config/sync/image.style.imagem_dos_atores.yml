@@ -1,0 +1,15 @@
+uuid: 6a823138-d15c-4e7b-b230-37145566474e
+langcode: en
+status: true
+dependencies: {  }
+name: imagem_dos_atores
+label: 'Imagem dos Atores'
+effects:
+  dd68e179-d106-4cc1-8deb-2c69b8def3ad:
+    uuid: dd68e179-d106-4cc1-8deb-2c69b8def3ad
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 200
+      height: 300
+      anchor: center-center

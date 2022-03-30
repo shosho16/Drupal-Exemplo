@@ -1,0 +1,23 @@
+uuid: b7856599-0e5c-413f-88d5-69ade389e4c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.atores
+  module:
+    - text
+id: node.atores.body
+field_name: body
+entity_type: node
+bundle: atores
+label: Biografia
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,46 @@
+uuid: f8742714-1fd8-4792-ad6e-30f23e574ffc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.atores.body
+    - field.field.node.atores.field_filmes_do_ator
+    - field.field.node.atores.field_imagem_do_ator
+    - image.style.imagem_dos_atores
+    - node.type.atores
+  module:
+    - image
+    - text
+    - user
+id: node.atores.full
+targetEntityType: node
+bundle: atores
+mode: full
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_filmes_do_ator:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_imagem_do_ator:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: imagem_dos_atores
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  links: true

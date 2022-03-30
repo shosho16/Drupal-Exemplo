@@ -1,0 +1,13 @@
+uuid: d82fd229-de9d-4256-8bb8-69b5099a25c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.thumbnail
+  theme:
+    - tema
+id: tema_images_breakpoints
+label: 'Tema Images Breakpoints'
+image_style_mappings: {  }
+breakpoint_group: tema
+fallback_image_style: thumbnail
